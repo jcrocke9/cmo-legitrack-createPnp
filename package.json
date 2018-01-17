@@ -1,0 +1,19 @@
+{
+  "name": "cmo-legitrack-createpnp",
+  "version": "1.0.0",
+  "description": "creates the sharepoint stuff for LegiStation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcrocke9/cmo-legitrack-createPnp.git"
+  },
+  "author": "Joe Crockett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcrocke9/cmo-legitrack-createPnp/issues"
+  },
+  "homepage": "https://github.com/jcrocke9/cmo-legitrack-createPnp#readme"
+}
