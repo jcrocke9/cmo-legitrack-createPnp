@@ -33,6 +33,7 @@ function Add-CoaColumnToCt {
 function Add-CoaList {
     New-PnPList -Title "Bills" -Template "Custom" -EnableVersioning -EnableContentTypes
     Add-PnPContentTypeToList -List "Bills" -ContentType "Bill"
-    Add-PnPView -List "Bills" -Title "AllBills" -RowLimit 5000 -Fields "Title",'legiBody','legiId','legiUserId' -SetAsDefault
+    Add-PnPView -List "Bills" -Title "AllBills" -RowLimit 5000 -Fields 'legiNumber',"Title",'legiChamber','legiDateIntro' -SetAsDefault
+    Add-PnPView -List "Bills" -Title "AllTesterBills" -RowLimit 5000 -Fields "Title",'legiBody','legiId','legiUserId'
     Set-PnPDefaultContentTypeToList -List "Bills" -ContentType "Bill"
 }
